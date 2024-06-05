@@ -1,0 +1,36 @@
+{
+  "printWidth": 180,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "endOfLine": "auto",
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "quoteProps": "as-needed",
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": ["**/*.css", "**/*.scss"],
+      "options": {
+        "parser": "scss",
+        "singleQuote": false
+      }
+    },
+    {
+      "files": ["**/*.html"],
+      "options": {
+        "parser": "angular",
+        "singleQuote": false
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "html",
+        "singleQuote": false,
+        "quoteProps": "as-needed"
+      }
+    }
+  ]
+}

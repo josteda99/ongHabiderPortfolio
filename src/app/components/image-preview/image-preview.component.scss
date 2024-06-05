@@ -1,0 +1,14 @@
+img {
+  max-width: 100%;
+  max-height: 90vh;
+}
+.full-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
