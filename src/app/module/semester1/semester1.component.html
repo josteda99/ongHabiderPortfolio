@@ -3,8 +3,8 @@
     <img class="panoramic oficial-page" (click)="openDialog(presentation)" [src]="presentation.src" [alt]="presentation.alt" srcset="" />
   </div>
 </div>
-<div class="my-5 oficial-page" (click)="goToExternalLink()">
-  <div class="d-flex justify-content-center">
+<div class="my-5">
+  <div (click)="goToExternalLink()" class="d-flex justify-content-center oficial-page">
     <img
       class="d-flex justify-content-center mb-3"
       style="width: 100px; height: 100px"
@@ -13,10 +13,10 @@
       srcset=""
     />
   </div>
-  <div class="d-flex justify-content-center">
+  <div (click)="goToExternalLink()" class="d-flex justify-content-center oficial-page">
     <h1 class="mb-0">Clausura Semestre 2024-I</h1>
   </div>
-  <div class="d-flex justify-content-center">
+  <div (click)="goToExternalLink()" class="d-flex justify-content-center oficial-page">
     <h3>ONG Habider Internacional</h3>
   </div>
 </div>

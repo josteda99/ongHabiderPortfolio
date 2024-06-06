@@ -9,4 +9,17 @@ import { ImageInformationI } from 'src/app/interfaces/image-information.interfac
 })
 export class ImagePreviewComponent {
   constructor(@Inject(MAT_DIALOG_DATA) public data: { image: ImageInformationI }) {}
+
+  public downloadImage(src: string): void {
+    const link = document.createElement('a');
+    link.href = src;
+    link.download = this.getFileNameFromSrc(src);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+  private getFileNameFromSrc(src: string): string {
+    return src.split('/').pop() ?? '';
+  }
 }

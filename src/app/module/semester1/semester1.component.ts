@@ -49,6 +49,6 @@ export class Semester1Component implements OnInit {
   }
 
   public goToExternalLink(): void {
-    window.location.href = 'https://onghabiderinternacional.com.co/';
+    window.open('https://onghabiderinternacional.com.co/', '_blank');
   }
 }
