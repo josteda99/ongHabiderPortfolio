@@ -13,16 +13,8 @@ import { ImagePreviewComponent } from './components/image-preview/image-preview.
 
 @NgModule({
   declarations: [AppComponent, Semester1Component, ImagePreviewComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule,
-    BrowserAnimationsModule,
-    MatDialogModule,
-    MatCardModule,
-    NgxMasonryModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, BrowserAnimationsModule, MatDialogModule, MatCardModule, NgxMasonryModule],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}

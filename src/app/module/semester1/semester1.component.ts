@@ -4,7 +4,7 @@ import { Component, OnInit, ViewChild, inject } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { NgxMasonryComponent, NgxMasonryOptions } from 'ngx-masonry';
 import { ImagePreviewComponent } from 'src/app/components/image-preview/image-preview.component';
-import { otras } from 'src/app/constants/images-mapper';
+import { diplomas, importantes, otras, presentation } from 'src/app/constants/images-mapper';
 
 @Component({
   selector: 'app-semester1',
@@ -24,6 +24,9 @@ export class Semester1Component implements OnInit {
   };
 
   public images: ImageInformationI[] = otras;
+  public importantes: ImageInformationI[] = importantes;
+  public diplomas: ImageInformationI[] = diplomas;
+  public presentation: ImageInformationI = presentation;
 
   public ngOnInit(): void {
     this.randomGallery();
@@ -43,5 +46,9 @@ export class Semester1Component implements OnInit {
       data: { image },
       backdropClass: 'backdropBackground'
     });
+  }
+
+  public goToExternalLink(): void {
+    window.location.href = 'https://onghabiderinternacional.com.co/';
   }
 }
