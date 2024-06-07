@@ -96,7 +96,8 @@ export const otras: ImageInformationI[] = [
   { important: true, alt: 'unnamed', title: 'unnamed-0075', description: 'unnamed', src: 'assets/photos/otras/0075.jpg' },
   { important: true, alt: 'unnamed', title: 'unnamed-0077', description: 'unnamed', src: 'assets/photos/otras/0077.jpg' },
   { important: true, alt: 'unnamed', title: 'unnamed-0078', description: 'unnamed', src: 'assets/photos/otras/0078.jpg' },
-  { important: true, alt: 'unnamed', title: 'sin-nombre-0082', description: 'unnamed', src: 'assets/photos/otras/0082.jpg' }
+  { important: true, alt: 'unnamed', title: 'sin-nombre-0082', description: 'unnamed', src: 'assets/photos/otras/0082.jpg' },
+  { important: true, alt: 'unnamed', title: 'sin-nombre-0082', description: 'unnamed', src: 'assets/photos/otras/0086.jpg' }
 ];
 
 export const importantes: ImageInformationI[] = [
@@ -105,17 +106,20 @@ export const importantes: ImageInformationI[] = [
   { important: true, alt: 'unnamed', title: 'sin-nombre-0020', description: 'unnamed', src: 'assets/photos/otras/0020.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0015', description: 'unnamed', src: 'assets/photos/otras/0015.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0049', description: 'unnamed', src: 'assets/photos/otras/0049.jpg' },
+  { important: true, alt: 'unnamed', title: 'sin-nombre-0049', description: 'unnamed', src: 'assets/photos/otras/0084.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0077', description: 'unnamed', src: 'assets/photos/otras/0077.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0056', description: 'unnamed', src: 'assets/photos/otras/0056.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0083', description: 'unnamed', src: 'assets/photos/otras/0083.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0038', description: 'unnamed', src: 'assets/photos/otras/0038.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0074', description: 'unnamed', src: 'assets/photos/otras/0074.jpg' },
+  { important: true, alt: 'unnamed', title: 'sin-nombre-0049', description: 'unnamed', src: 'assets/photos/otras/0087.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0072', description: 'unnamed', src: 'assets/photos/otras/0072.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0080', description: 'unnamed', src: 'assets/photos/otras/0080.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0062', description: 'unnamed', src: 'assets/photos/otras/0062.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0019', description: 'unnamed', src: 'assets/photos/otras/0019.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0033', description: 'unnamed', src: 'assets/photos/otras/0033.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0036', description: 'unnamed', src: 'assets/photos/otras/0036.jpg' },
+  { important: true, alt: 'unnamed', title: 'sin-nombre-0049', description: 'unnamed', src: 'assets/photos/otras/0085.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0029', description: 'unnamed', src: 'assets/photos/otras/0029.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0037', description: 'unnamed', src: 'assets/photos/otras/0037.jpg' },
   { important: true, alt: 'unnamed', title: 'sin-nombre-0079', description: 'unnamed', src: 'assets/photos/otras/0079.jpg' },
